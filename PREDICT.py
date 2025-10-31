@@ -8,7 +8,7 @@ c2.title("PredictGuard 🧠 - Disease Prediction from Symptoms")
 c1.image("logo-removebg-preview.png")
 
 # --- Configure API ---
-genai.configure(api_key="AIzaSyBdCcRrsHr7JsFCThMgVsTYApL9AO6aRfY")  # Replace with your key safely
+genai.configure(api_key="AIzaSyDWWWlGQAc7Hvl102qNU3V4nblH5tQaOXk")  # Replace with your key safely
 
 # --- Create model once ---
 def create_gen_model():
@@ -58,4 +58,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
