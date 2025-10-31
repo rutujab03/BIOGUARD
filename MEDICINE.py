@@ -8,7 +8,7 @@ c2.title("MedGuard: Medicine Info & Safe Alternatives")
 c1.image("logo-removebg-preview.png")
 
 # --- Configure Gemini API ---
-genai.configure(api_key="AIzaSyATj2hweNVg7WGlxWeQC3dmDSjpGhuw4-0")  # Replace with your own API key
+genai.configure(api_key="AIzaSyBEIiQY6xAU3seIPSjyk85c_1STzQVcP9A")  # Replace with your own API key
 
 # --- Create model once ---
 def create_model():
@@ -62,4 +62,5 @@ def main():
 # --- Run App ---
 if __name__ == "__main__":
     main()
+
 
