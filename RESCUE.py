@@ -8,7 +8,7 @@ c2.title("🚑 RescueGuard: Emergency Contacts & Nearest Hospitals")
 c1.image("logo-removebg-preview.png")
 
 # --- Configure Gemini API ---
-genai.configure(api_key="AIzaSyC_vqWwogUV6_obXPyPzGL0NFql5jImmYA")  # Replace with your actual key
+genai.configure(api_key="AIzaSyCwVmeZMA9X_JLk9TXue-jL83kBa-TWU2A")  # Replace with your actual key
 
 # --- Create model once globally ---
 def create_model():
@@ -69,3 +69,4 @@ def emergency_services_main():
 # --- Run App ---
 if __name__ == "__main__":
     emergency_services_main()
+
