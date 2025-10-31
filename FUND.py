@@ -8,7 +8,7 @@ c2.title("💰 FundGuard: Quick Emergency Loan Assistance")
 c1.image("logo-removebg-preview.png")
 
 # --- Configure Gemini API ---
-genai.configure(api_key="AIzaSyBPh0ERzMf3-SgBvrNhkMvXEkIr6E9Kt9Q")  # Replace with your actual key
+genai.configure(api_key="AIzaSyCgZAWPA5aT5aBneNElR9qjSkS9Gsglr_I")  # Replace with your actual key
 
 # --- Model Initialization (once) ---
 def create_model():
@@ -57,3 +57,4 @@ def emergency_loan_services_main():
 # --- Run App ---
 if __name__ == "__main__":
     emergency_loan_services_main()
+
