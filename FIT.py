@@ -8,7 +8,7 @@ c2.title("🏋️‍♂️ FitGuard: Smart BMI & Fitness Planner")
 c1.image("logo-removebg-preview.png")
 
 # --- Configure Gemini API ---
-genai.configure(api_key="AIzaSyALAD7flc2eoaGkJZxBs3MAmrSzAPgUVfM")  # Replace with your API key
+genai.configure(api_key="AIzaSyBM4eT0kLhUSr5r-8Iwj5W-8pC5MhAP-k4")  # Replace with your API key
 
 # --- Create model once globally ---
 def create_model():
@@ -134,3 +134,4 @@ def fitguard_main():
 # --- Run App ---
 if __name__ == "__main__":
     fitguard_main()
+
